@@ -1,0 +1,15 @@
+[package]
+name = "aws-typeahead"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.65"
+async-trait = "0.1.57"
+aws-config = "0.48.0"
+aws-sdk-cloudformation = "0.18.0"
+clap = { version = "3.2.21", features = ["derive"] }
+skim = "0.9.4"
+tokio = { version = "1.21.1", features = ["full"] }
