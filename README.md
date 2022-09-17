@@ -2,6 +2,8 @@
 
 Pick a stack then a resource. The output is, **for the mapped resources**, a path which one can use in AWS console or (as per my use-case) in combination with [`aws-sso-util`](https://github.com/benkehoe/aws-sso-util).
 
+https://user-images.githubusercontent.com/26322927/190849528-7234a95e-5fa6-4a57-8d62-d67a918aabb9.mov
+
 Please note that I have no idea what I'm doing when it comes to Rust programming, so the code is probably suboptimal 🤷‍♂️.
 
 ## Usage
